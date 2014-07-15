@@ -3,29 +3,35 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Bus Results</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 
-<nav>
-    <img src="http://placehold.it/100x50" id="logo">
-    <img src="http://placehold.it/50x50" id="setting">
-    <img src="http://placehold.it/50x50" id="favorites">
+<nav class="row ">
+    <img src="http://placehold.it/100x50" id="logo" class="pull-left col-md-8">
+    <img src="http://placehold.it/50x50" id="setting" class="pull-right col-md-2">
+    <img src="http://placehold.it/50x50" id="favorites" class="pull-right col-md-2">
+    <h2>Choose Your Bus</h2>
 </nav>
 
-<div class="results">
-    <a href="page%204.html"><h3>167T</h3>
-    <p>12:50p.m. - 1:24p.m. (34min)</p></a>
+<div class="results row">
+    <a href="page%204.html"><h3 class="col-xs-6 col-md-4">182Q</h3>
+        <p class="col-xs-4 pull-right">12:50p.m. - 1:46p.m. (56min)</p></a>
 </div>
 
-<div class="results">
-    <a href="page%204.html"><h3>167A</h3>
-    <p>12:50p.m. - 1:24p.m. (34min)</p></a>
+<div class="results row">
+    <a href="page%204.html"><h3 class="col-xs-6 col-md-4">182Q</h3>
+        <p class="col-xs-4 pull-right">12:50p.m. - 1:46p.m. (56min)</p></a>
 </div>
 
-<div class="results">
-    <a href="page%204.html"><h3>182Q</h3>
-    <p>12:50p.m. - 1:46p.m. (56min)</p></a>
+<div class="results row">
+    <a href="page%204.html"><h3 class="col-xs-6 col-md-4">182Q</h3>
+    <p class="col-xs-4 pull-right">12:50p.m. - 1:46p.m. (56min)</p></a>
 </div>
 
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
