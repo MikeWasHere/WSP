@@ -1,0 +1,585 @@
+body{
+    background-color: darkgray;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header{
+    /*background: url("../images/dark_wall.png");*/
+    background-color: #555555;
+    float: left;
+    width: 100%;
+    clear: both;
+}
+
+#sign h1{
+    font-family: 'arial',Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #f5f5f5;
+}
+
+#top{
+    /*background: url("../images/dark_wall.png");*/
+    background-color: #232323;
+    width: 100%;
+    float: left;
+}
+
+#big{
+    padding: 20px;
+    float: left;
+    width: 40%;
+    margin: 0;
+}
+
+#lib{
+    background-color: #d4d4d0;
+    border: none;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+    color: #000000;
+    font-size: 20px;
+    float: right;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#lib:hover{
+    background-color: #fffefa;
+    color: #323232;
+    box-shadow: 0px 3px 9px #000000;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+
+}
+
+#sign{
+    float: left;
+    width: 50%;
+}
+
+#no{
+    color: #e3dce7;
+    font-size: 20px;
+    float: left;
+    clear: both;
+    margin-top: 10px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    border-bottom: 2px #e3dce7 solid;
+    text-decoration: none;
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#no:hover{
+    color: #f2ebf6;
+    /*text-shadow: 1px 1px 5px #f1581a;*/
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+/*-------------- Sign in Options --------------*/
+#btn-Email{
+    background-color: #e3dce7;
+    border: none;
+    border-radius: 7px;
+    color: #818181;
+    font-size: 16px;
+    float: left;
+    margin: 5px;
+    margin-left: 40px;
+    width: 77%;
+    text-align: center;
+    padding: 12px 10px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#btn-Email:hover{
+    background-color: #e7e0df;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    /*margin-bottom: 10px;*/
+    box-shadow: 0px 3px 9px #000000;
+}
+
+button img{
+    float: left;
+}
+
+button p{
+    margin: 0;
+}
+
+#btn-google{
+    background-color: #a8a5a8;
+    border: none;
+    border-radius: 7px;
+    color: #fbfbfb;
+    font-size: 16px;
+    float: left;
+    margin: 5px;
+    margin-left: 40px;
+    width: 77%;
+    text-align: center;
+    padding: 10px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#btn-google:hover {
+    background-color: #bab7ba;
+    box-shadow: 0px 3px 9px #000000;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    /*margin-bottom: 10px;*/
+}
+
+#btn-google p{
+    font-size: 17px;
+}
+
+#btn-facebook{
+    background-color: #726d73;
+    border: none;
+    border-radius: 7px;
+    color: #fbfbfb;
+    font-size: 16px;
+    float: left;
+    margin: 5px;
+    margin-left: 40px;
+    width: 77%;
+    text-align: center;
+    padding: 10px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#btn-facebook:hover{
+    background-color: #8f868d;
+    box-shadow: 0px 3px 9px #000000;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+    /*margin-bottom: 10px;*/
+}
+
+#btn-facebook p{
+    font-size: 17px;
+}
+/*-------------- Sign in Options End --------------*/
+
+form input{
+    width: 100%;
+    margin-bottom: 2%;
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+    font-size: 2em;
+}
+
+/*-------------- Dropdown menu --------------*/
+.login{
+/*position: absolute;*/
+/*left: 1100px;*/
+/*bottom: 710px;*/
+background-color: #232323;
+width: 100%;
+}
+
+
+nav#links {
+    width:724px;
+    float:left;
+}
+
+nav#links ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+#links ul li {
+    margin:0 12px;
+    padding:0;
+    float:left;
+    text-align:center;
+}
+
+#links ul li a {
+    display:block;
+    padding:0 2px;
+}
+
+
+nav#login {
+    /*width:300px;*/
+    float: right;
+    /*position:relative;*/
+    background-color: #232323;
+}
+
+#login p {
+    margin:0;
+    padding:10px;
+    cursor:pointer;
+    background-position:left;
+    background-repeat:no-repeat;
+    font-family: 'arial', cursive;
+}
+
+#triangle{
+    position: relative;
+    bottom: 20px;
+    left: 130px;
+}
+
+#login-form {
+    position:absolute;
+    z-index:999;
+    background-color: #DDDDDD;
+    border:solid 1px #DDDDDD;
+    border-radius: 10px;
+    padding: 12px 2px 12px 12px;
+    width:300px;
+    box-shadow: 0px 3px 9px #000000;
+    top:70px;
+    display:none;
+    font-family: 'arial', sans-serif;
+}
+
+#login-form label {
+    display:block;
+}
+
+#login-form input[type="text"],
+#login-form input[type="password"] {
+    display:block;
+    width: 97%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    /*margin-bottom: 20px;*/
+    font-family: 'Alegreya', serif;
+    border: none;
+}
+
+
+#login-form input,
+#login-form label {
+    margin-bottom:4px;
+}
+
+#signinButton{
+    background-color: #7c7c73;
+    border: none;
+    border-radius: 7px;
+    color: #000000;
+    font-size: 20px;
+    float: right;
+    margin: 5px;
+    width: 97%;
+    font-family: 'arial', cursive;
+    padding: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#signinButton:hover{
+    background-color: #c9c5c1;
+    color: #323232;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+/*-------------- Dropdown menu End --------------*/
+
+#bottom{
+    /*background-image: url("../images/Wheres%20my%20bus%20background.png");*/
+    background-color: grey;
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+.left{
+    width: 31%;
+    float: left;
+    margin-left: 20px;
+    color: #f5f5f5;
+}
+
+.left h3{
+    font-family: 'arial', cursive;
+    letter-spacing: 1px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.sm{
+    margin: 2% 45%;
+}
+
+.lp{
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+
+#bottom a{
+    font-family: 'Alegreya', serif;
+    font-size: 20px;
+    float: right;
+    margin-right: 5px;
+    color: #c7c5c5;
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#bottom a:hover{
+    font-size: 23px;
+    color: #fffbf4;
+    /*text-shadow: 1px 1px 5px #fffe5c;*/
+    -webkit-transition: all .2s ease;
+    -moz-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+footer{
+    width: 100%;
+    background-color: #323232;
+    float: left;
+}
+
+#left{
+    float: left;
+    margin: 2%;
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: #f5f5f5;
+}
+
+#left p{
+    float: right;
+}
+
+#br{
+    float: left;
+    margin: 1%;
+    width: 58%;
+    color: #f5f5f5;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+#face{
+    margin: 5px 3px;
+    margin-right: 7px;
+}
+
+/*======================================= Find_Bus Page* =======================================*/
+
+nav{
+    width: 25%;
+    float: left;
+}
+
+/*#Register-btn{*/
+/*background-color: #E74700;*/
+/*border: none;*/
+/*border-radius: 7px;*/
+/*color: #fbfbfb;*/
+/*font-size: 16px;*/
+/*float: left;*/
+/*margin: 5px;*/
+/*margin-left: 40px;*/
+/*width: 20%;*/
+/*text-align: center;*/
+/*padding: 12px 10px;*/
+/*-webkit-transition: all .5s ease;*/
+/*-moz-transition: all .5s ease;*/
+/*transition: all .5s ease;*/
+/*}*/
+
+#logo{
+    margin: 15px;
+}
+
+#Destination{
+    float: left;
+    width: 30%;
+    background-color: #323232;
+    color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-right: 15%;
+}
+
+.AB{
+
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    color: #323232;
+}
+
+#2ndForm{
+    font-size: .5em;
+    text-align: center;
+}
+
+.where{
+    margin: 10px;
+    margin-left: 30px;
+    width: auto;
+}
+
+input.where{
+    position: relative;
+    right: 5px;
+}
+
+#getBus{
+    background-color: #b3bab8;
+    border: none;
+    border-radius: 7px;
+    color: #000000;
+    font-size: 20px;
+    float: right;
+    margin: 5px;
+    width: 97%;
+    font-family: 'arial', cursive;
+    padding: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#getBus:hover{
+    background-color: #b0b1ad;
+    color: #323232;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#Destination h1{
+    font-family: 'arial', cursive;
+    color: #f5f5f5;
+    margin: 1% 5%;
+    text-align: center;
+}
+
+.yas{
+    color: lightgray;
+}
+
+#map_canvas{
+    position: fixed;
+    top: 120px;
+    right: 150px;
+}
+
+/*------------------------ Mobile Code ------------------------*/
+@media only screen and (max-width: 768px) {
+
+
+div.col-xs-6{
+   margin: 0 auto;
+}
+
+.col-xs-6 {
+   width: 20%;
+}
+
+h1{
+    text-align: center;
+}
+
+.btn-default{
+    width: 90%;
+    margin-top: 7%;
+}
+
+
+.push{
+    margin: 2% auto;
+    max-width: 100%;
+    display: block;
+}
+
+button.col-xs-6{
+    margin-top: 5%;
+    font-size: 1.5em;
+    width: 100%;
+    padding: 5px;
+}
+
+h2{
+    margin: 5px;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 7%;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+nav{
+    background-color: #232323;
+    padding: 5px;
+    width: 100%;
+    float: none;
+}
+
+nav h2{
+    font-size: 1.7em;
+    text-align: center;
+}
+
+.results{
+    background-color: #c1c1c1;
+    padding: 5px;
+    margin-top: 3%;
+    border-bottom: 2px #919191 solid;
+}
+
+.results p{
+    text-align: center;
+    float: right;
+}
+
+div img{
+    margin: 5px;
+}
+}
