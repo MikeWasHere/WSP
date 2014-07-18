@@ -15,6 +15,8 @@ header{
 #sign h1{
     font-family: 'arial',Helvetica Neue, Helvetica, Arial, sans-serif;
     color: #f5f5f5;
+    text-align: center;
+    margin-right: 40px;
 }
 
 #top{
@@ -179,10 +181,19 @@ button p{
 }
 /*-------------- Sign in Options End --------------*/
 
+#form{
+    border: 1.5px #b0b1ad solid;
+    border-radius: 5px;
+}
+
 form input{
-    width: 100%;
-    margin-bottom: 2%;
+    width: 95%;
+    margin: 0 auto;
     text-align: center;
+    border: none;
+    border-bottom: 1px #e6e7e3 solid;
+    padding: 10px;
+    display: inherit;
 }
 
 h4{
@@ -433,23 +444,14 @@ nav{
     margin: 15px;
 }
 
-#Destination{
-    float: left;
-    width: 30%;
-    background-color: #323232;
-    color: #f5f5f5;
-    padding: 15px;
+#depart-going{
     border-radius: 5px;
-    margin-top: 10%;
-    margin-right: 15%;
 }
 
 .AB{
-
-    border-radius: 5px;
-    border: none;
     padding: 5px;
     color: #323232;
+    width: 100%;
 }
 
 #2ndForm{
@@ -458,8 +460,7 @@ nav{
 }
 
 .where{
-    margin: 10px;
-    margin-left: 30px;
+    margin: 20px 20px 20px 5px;
     width: auto;
 }
 
@@ -471,12 +472,12 @@ input.where{
 #getBus{
     background-color: #b3bab8;
     border: none;
-    border-radius: 7px;
+    border-radius: 5px;
     color: #000000;
     font-size: 20px;
     float: right;
-    margin: 5px;
-    width: 97%;
+    margin-top: 5px;
+    width: 100%;
     font-family: 'arial', cursive;
     padding: 5px;
     -webkit-transition: all .5s ease;
@@ -492,6 +493,18 @@ input.where{
     transition: all .5s ease;
 }
 
+#Destination{
+    float: left;
+    width: 30%;
+    background-color: #323232;
+    color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-right: 2%;
+    display: inline-block;
+}
+
 #Destination h1{
     font-family: 'arial', cursive;
     color: #f5f5f5;
@@ -501,13 +514,135 @@ input.where{
 
 .yas{
     color: lightgray;
+    padding: 2px;
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+#list{
+    float: left;
+    width: 30%;
+    background-color: #323232;
+    color: #f5f5f5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10%;
+    margin-right: 2%;
+    height: 398px;
+    overflow: scroll;
+}
+
+#list h1{
+    margin-top: 5px;
+    text-align: center;
+}
+
+#list h2{
+    display: inline-block;
+    margin-top: 0;
+}
+
+.theRight{
+    width: 37%;
+    display: inline-block;
+    float: right;
+}
+
+#list p{
+    display: inline-block;
+}
+
+section{
+    background-color: #dcdcdc;
+    margin-bottom: 20px;
+    float: right;
+    width: 100%;
+    padding: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+section a{
+    color: #454545;
+}
+
+section:hover{
+    background-color: #ececec;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#right{
+    float: left;
+    width: 30%;
+    background-color: #323232;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10%;
+    height: 398px;
+    overflow: scroll;
+}
+
+#map h1{
+    margin-top: 5px;
+    text-align: center;
+    color: #f5f5f5;
+}
+
+#map img{
+    float: left;
+    margin-right: 5px;
+}
+
+#map p{
+    color: #f5f5f5;
+    float: left;
+    margin-top: 5px;
+}
+
+#notification{
+    display: inline-block;
+    margin: 10px 5px;
 }
 
 #map_canvas{
     position: fixed;
-    top: 120px;
+    top: 1px;
     right: 150px;
 }
+
+#forum{
+    display: none;
+}
+
+#forum h1{
+    color: #f5f5f5;
+    text-align: center;
+    margin-top: 5px;
+}
+
+#forum h3{
+    font-size: 1em;
+}
+
+#forum a{
+    cursor: pointer;
+}
+
+.box{
+    display: none;
+}
+
+.show{
+    display: inline-block;
+}
+
+/*------------------------ Ranking Code ------------------------*/
+
+
 
 /*------------------------ Mobile Code ------------------------*/
 @media only screen and (max-width: 768px) {

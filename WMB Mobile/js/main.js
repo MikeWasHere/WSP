@@ -260,4 +260,24 @@ $(document).ready(function(){
     });
 }); // end ready
 
+
+
+
+$('#getBus').on('click', function(){
+    $('#list').addClass('show');
+    console.log("click")
+});
+
+$('#list a').on('click', function(e){
+    e.preventDefault();
+    $('#right').addClass('show');
+});
+
+$('#map button').on('click', function(){
+    $('#map').hide();
+    $('#forum').addClass('show');
+});
+
+
+
 //$('#myModal').modal();
