@@ -17,6 +17,7 @@ header{
     color: #f5f5f5;
     text-align: center;
     margin-right: 40px;
+    width: 100%;
 }
 
 #top{
@@ -92,9 +93,8 @@ header{
     border-radius: 7px;
     color: #818181;
     font-size: 16px;
-    float: left;
-    margin: 5px;
-    margin-left: 40px;
+    margin: 2% auto;
+    display: block;
     width: 77%;
     text-align: center;
     padding: 12px 10px;
@@ -126,9 +126,8 @@ button p{
     border-radius: 7px;
     color: #fbfbfb;
     font-size: 16px;
-    float: left;
-    margin: 5px;
-    margin-left: 40px;
+    margin: 2% auto;
+    display: block;
     width: 77%;
     text-align: center;
     padding: 10px;
@@ -156,9 +155,8 @@ button p{
     border-radius: 7px;
     color: #fbfbfb;
     font-size: 16px;
-    float: left;
-    margin: 5px;
-    margin-left: 40px;
+    margin: 2% auto;
+    display: block;
     width: 77%;
     text-align: center;
     padding: 10px;
@@ -336,8 +334,11 @@ nav#login {
 .left h3{
     font-family: 'arial', cursive;
     letter-spacing: 1px;
-    font-size: 24px;
+    font-size: 1.6em;
     text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px #f5f5f5 solid;
+    margin-bottom: 20px;
 }
 
 .sm{
@@ -495,7 +496,7 @@ input.where{
 
 #Destination{
     float: left;
-    width: 30%;
+    width: 33%;
     background-color: #323232;
     color: #f5f5f5;
     padding: 15px;
@@ -522,7 +523,7 @@ input.where{
 
 #list{
     float: left;
-    width: 30%;
+    width: 33%;
     background-color: #323232;
     color: #f5f5f5;
     padding: 15px;
@@ -553,7 +554,7 @@ input.where{
     display: inline-block;
 }
 
-section{
+#list section{
     background-color: #dcdcdc;
     margin-bottom: 20px;
     float: right;
@@ -568,7 +569,7 @@ section a{
     color: #454545;
 }
 
-section:hover{
+#list section:hover{
     background-color: #ececec;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -616,6 +617,13 @@ section:hover{
 
 #forum{
     display: none;
+    color: #f5f5f5;
+}
+
+#forum section{
+    border-bottom: 1px #f5f5f5 solid;
+    float: right;
+    width: 100%;
 }
 
 #forum h1{
@@ -625,11 +633,13 @@ section:hover{
 }
 
 #forum h3{
-    font-size: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 #forum a{
     cursor: pointer;
+    color: #dcdcdc;
 }
 
 .box{
@@ -668,7 +678,7 @@ h1{
 
 .push{
     margin: 2% auto;
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 

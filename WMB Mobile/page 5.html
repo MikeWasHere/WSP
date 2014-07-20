@@ -13,6 +13,57 @@
             height: 300px;
             margin-left: 50%;
         }
+
+        @media only screen and (max-width: 991px){
+            header{
+                float: none;
+            }
+            .login{
+                padding: 5px;
+                margin-bottom: 10%;
+            }
+            #login{
+                display: none;
+            }
+            img{
+                margin: 5px;
+            }
+            #Destination{
+                width: 80%;
+                margin: 5% auto;
+                display: block;
+                float: none;
+                margin-top: 0;
+                clear: both;
+            }
+            #getBus{
+                float: none;
+            }
+            #list{
+                width: 80%;
+                margin: 5% auto;
+                display: block;
+                float: none;
+                margin-top: 0;
+                clear: both;
+            }
+            .theRight{
+                font-size: 1.4em;
+            }
+            #right{
+                width: 80%;
+                margin: 5% auto;
+                display: block;
+                float: none;
+                margin-top: 0;
+                clear: both;
+            }
+            .pull-right{
+                width: 80%;
+                margin-right: 10%;
+                font-size: 1.5em;
+            }
+        }
     </style>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
@@ -31,7 +82,7 @@
 </head>
 <body>
 
-<div id="5thDesktopView" class="hidden-xs hidden-sm visible-md-* visible-lg-*">
+<div id="5thDesktopView" class="">
 <header>
 <nav>
     <img src="http://placehold.it/100x50" class="logo" width="" height="">
@@ -56,7 +107,7 @@
 </div>
 </header>
 
-<div id="Destination" class="box">
+<div id="Destination" class="box col-md-4">
     <h1>Destination</h1>
     <form id="2ndForm">
 
@@ -66,28 +117,32 @@
         <input name="signinButton" type="text" class="masterTooltip AB" placeholder="Please enter where you're going" title= "where your going" required />
         </div>
 
-        <label class="where">
-            <input type="radio" name="Leaving" class="where">Depart at
-        </label>
+        <div id="radio">
+            <label class="where">
+                <input type="radio" name="Leaving" class="where">Depart at
+            </label>
 
-        <label class="where">
-            <input type="radio" name="Arriving" class="where">Arrive by
-        </label>
+            <label class="where">
+                <input type="radio" name="Arriving" class="where">Arrive by
+            </label>
+        </div>
 
-        <label>Choose the day
-            <input class="yas" type="date" name="Date">
-        </label>
+            <label>Choose the day
+                <input class="yas" type="date" name="Date">
+            </label>
 
-        <label>Choose the time
-            <input class="yas" type="time">
-        </label>
+            <label>Choose the time
+                <input class="yas" type="time">
+            </label>
 
         <button name="signinButton" type="button" id="getBus" value="Sign In">Find it</button>
     </form>
 
 </div>
 
-    <div id="list" class="box">
+<div class="row container-fluid">
+
+    <div id="list" class="box col-md-4">
 
         <h1>Choose Your Bus</h1>
 
@@ -124,7 +179,7 @@
         </section>
     </div>
 
-    <div id="right" class="box">
+    <div id="right" class="box col-md-4">
         <div id="map">
             <h1>Bus 1</h1>
             <div id="map_canvas">
@@ -165,37 +220,39 @@
 
 
 
-<div id="5thPageMobileWrapper" class="visible-xs-* visible-sm-* hidden-md hidden-lg ">
+<!--<div id="5thPageMobileWrapper" class="visible-xs-* visible-sm-* hidden-md hidden-lg ">-->
 
-    <nav class="row ">
-        <img src="http://placehold.it/100x50" id="logo" class="pull-left col-md-8">
-        <img src="http://placehold.it/50x50" id="setting" class="pull-right col-md-2">
-        <img src="http://placehold.it/50x50" id="favorites" class="pull-right col-md-2">
-        <h2>Bus Name</h2>
-    </nav>
+    <!--<nav class="row ">-->
+        <!--<img src="http://placehold.it/100x50" id="logo" class="pull-left col-md-8">-->
+        <!--<img src="http://placehold.it/50x50" id="setting" class="pull-right col-md-2">-->
+        <!--<img src="http://placehold.it/50x50" id="favorites" class="pull-right col-md-2">-->
+        <!--<h2>Bus Name</h2>-->
+    <!--</nav>-->
 
-    <div class="userPosted row results">
-        <img src="http://placehold.it/75x75" class="pull-left">
-        <h3>Megan: Posted</h3>
-        <p class="pull-left">Where is the bus right now?</p>
-        <button class="pull-right">Reply</button>
-    </div>
+    <!--<div class="userPosted row results">-->
+        <!--<img src="http://placehold.it/75x75" class="pull-left">-->
+        <!--<h3>Megan: Posted</h3>-->
+        <!--<p class="pull-left">Where is the bus right now?</p>-->
+        <!--<button class="pull-right">Reply</button>-->
+    <!--</div>-->
 
-    <div class="userPosted row results">
-        <img src="http://placehold.it/75x75" class="pull-left">
-        <h3>Megan: Posted</h3>
-        <p class="pull-left">Where is the bus right now?</p>
-        <button class="pull-right">Reply</button>
-    </div>
+    <!--<div class="userPosted row results">-->
+        <!--<img src="http://placehold.it/75x75" class="pull-left">-->
+        <!--<h3>Megan: Posted</h3>-->
+        <!--<p class="pull-left">Where is the bus right now?</p>-->
+        <!--<button class="pull-right">Reply</button>-->
+    <!--</div>-->
 
-    <div class="userPosted row results">
-        <img src="http://placehold.it/75x75" class="pull-left">
-        <h3>Megan: Posted</h3>
-        <p class="pull-left">Where is the bus right now?</p>
-        <button class="pull-right">Reply</button>
-    </div>
+    <!--<div class="userPosted row results">-->
+        <!--<img src="http://placehold.it/75x75" class="pull-left">-->
+        <!--<h3>Megan: Posted</h3>-->
+        <!--<p class="pull-left">Where is the bus right now?</p>-->
+        <!--<button class="pull-right">Reply</button>-->
+    <!--</div>-->
 
-    <button id="checkOut" class="col-xs-6">Check Out</button>
+    <!--<button id="checkOut" class="col-xs-6">Check Out</button>-->
+<!--</div>-->
+
 </div>
 
 <script src="js/jquery-1.11.0.min.js"></script>

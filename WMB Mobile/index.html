@@ -6,6 +6,39 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <style>
+        @media only screen and (max-width: 1265px){
+                  .left h3{
+                      font-size: 1.3em;
+                  }
+                  .left p{
+                      font-size: 1em;
+                  }
+        }
+
+        @media only screen and (max-width: 1111px){
+                .left{
+                    width: 30%;
+                }
+        }
+
+        @media only screen and (max-width: 991px){
+                #twitterButton{
+                    width: 80%;
+                    margin: 3% auto;
+                }
+                #facebookButton{
+                    width: 80%;
+                    margin: 3% auto;
+                }
+                .container-fluid section{
+                    margin: 0 auto;
+                    display: block;
+                }
+        }
+    </style>
+
 </head>
 <body>
 
@@ -82,7 +115,7 @@
 
     <section class="left">
         <img src="images/schedule-10.png" class="sm">
-        <h3>Schedule your Rides</h3>
+        <h3>Schedule Rides</h3>
         <p class="lp"> Working 9-5s every weekday? set your schedule with us and pick out the bus that fits you so you can be ready for that day with real time information.</p>
     </section>
 
@@ -94,7 +127,7 @@
 
     <section class="left">
         <img src="images/phone-10.png" class="sm">
-        <h3>Connect Your Smartphone</h3>
+        <h3>Sync your Phone</h3>
         <p class="lp"> When you step into a bus with our app you get to use our feature "Check In". It connects you to a mini blog about the bus your on so you can interact with important things.</p>  <a>Learn More</a>
     </section>
 </div>
@@ -118,12 +151,12 @@
 
                     <!--------------------- Mobile Section --------------------->
 
-    <div class="container-fluid .col-md-8 .col-xs-6 visible-sm-* visible-xs-* hidden-md hidden-lg">
+    <div class="container-fluid col-md-8 col-xs-10 visible-sm-* visible-xs-* hidden-md hidden-lg">
         <section>
             <h1>Where Is My Bus</h1>
             <img src="http://placehold.it/350x150" class="push">
-            <button class="btn btn-default push" >Sign in With Twitter</button>
-            <a href="page%202.html"><button class="btn btn-default push">Sign in With Facebook</button></a>
+            <button class="btn btn-default push" id="twitterButton">Sign in With Twitter</button>
+            <a href="page%205.html"><button class="btn btn-default push" id="facebookButton">Sign in With Facebook</button></a>
         </section>
     </div>
 
