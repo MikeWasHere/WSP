@@ -190,29 +190,54 @@
 
         <div id="forum">
 
+            <div class="modal fade" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                            <h4 class="modal-title">Post Your Message</h4>
+                        </div>
+                        <div class="modal-body">
+                            <textarea rows="4" cols="70">
+
+                            </textarea>
+
+                            <a href="#" id="link"><img class="modal-img" src="images/location-22.png">Enable your location</a>
+                            <a href="#" id="links"><img class="modal-img" src="images/QuestionMark.png">Question</a>
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+           <div id="busForum">
             <h1>Bus 1 - Forum</h1>
+            <a data-toggle="modal" data-target="#myModal"><img src="images/post-22.png" width="" height=""></a>
+           </div>
             <section>
                 <h3>Jimmy</h3>
                 <p>This bus came to the stop 20 minutes later than usual, just to let you guys know.</p>
-                <a class="pull-right">Reply</a>
+                <a class="pull-right" data-toggle="modal" data-target="#myModal">Reply</a>
             </section>
 
             <section>
                 <h3>Megan</h3>
                 <p>How far along is this bus?</p>
-                <a>View Replies</a> <a class="pull-right">Reply</a>
+                <a>View Replies</a> <a class="pull-right" data-toggle="modal" data-target="#myModal">Reply</a>
             </section>
 
             <section>
                 <h3>John</h3>
                 <p>Jeez luiz this bus is full! For all future riders, prepare to stand!</p>
-                <a class="pull-right">Reply</a>
+                <a class="pull-right" data-toggle="modal" data-target="#myModal">Reply</a>
             </section>
 
             <section>
                 <h3>Paul</h3>
                 <p>This bus came to the stop 20 minutes later than usual, just to let you guys know.</p>
-                <a class="pull-right">Reply</a>
+                <a class="pull-right" data-toggle="modal" data-target="#myModal">Reply</a>
             </section>
         </div>
     </div>

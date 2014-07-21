@@ -504,6 +504,7 @@ input.where{
     margin-top: 10%;
     margin-right: 2%;
     display: inline-block;
+    box-shadow: #505050 1px 5px 5px;
 }
 
 #Destination h1{
@@ -532,6 +533,7 @@ input.where{
     margin-right: 2%;
     height: 398px;
     overflow: scroll;
+    box-shadow: #505050 1px 5px 5px;
 }
 
 #list h1{
@@ -585,6 +587,7 @@ section a{
     margin-top: 10%;
     height: 398px;
     overflow: scroll;
+    box-shadow: #505050 1px 5px 5px;
 }
 
 #map h1{
@@ -626,10 +629,27 @@ section a{
     width: 100%;
 }
 
-#forum h1{
+#forum h1 {
     color: #f5f5f5;
-    text-align: center;
+    margin-bottom: 0;
     margin-top: 5px;
+    font-size: 2.2em;
+    display: inline-block;
+    width: 88%;
+}
+
+#forum img{
+    opacity: 0.5;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#forum img:hover{
+    opacity: 1.0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 #forum h3{
@@ -640,6 +660,50 @@ section a{
 #forum a{
     cursor: pointer;
     color: #dcdcdc;
+}
+
+.modal-title {
+    color: #6e6e6e;
+    font-size: 1.7em;
+}
+
+.modal-header span{
+    margin: 10px;
+}
+
+.modal-header{
+    border-bottom: 1px #B6B6B6 solid;
+    padding: 0;
+}
+
+.modal-body{
+    background-color: #dedede;
+}
+
+.modal-body textarea{
+    margin: 2% auto;
+    display: inherit;
+    width: 100%;
+    color: #232323;
+    border: 1px #B6B6B6 solid;
+}
+
+#forum #links{
+    color: #000000;
+}
+
+.modal-img{
+    margin-right: 5px;
+}
+
+#forum #link{
+    color: #000000;
+    margin-right: 50px;
+}
+
+.modal-body button{
+    position: relative;
+    left: 12.8%;
 }
 
 .box{
