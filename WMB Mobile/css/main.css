@@ -1,19 +1,18 @@
 body{
-    background-color: darkgray;
+    background: url("../images/dark_wall.png");
     width: 80%;
     margin: 0 auto;
 }
 
 header{
-    /*background: url("../images/dark_wall.png");*/
-    background-color: #555555;
+    background: url("../images/dark_wall.png");
     float: left;
     width: 100%;
     clear: both;
 }
 
 #sign h1{
-    font-family: 'arial',Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: 'Bevan', cursive;
     color: #f5f5f5;
     text-align: center;
     margin-right: 40px;
@@ -21,8 +20,7 @@ header{
 }
 
 #top{
-    /*background: url("../images/dark_wall.png");*/
-    background-color: #232323;
+    background: url("../images/dark_wall.png");
     width: 100%;
     float: left;
 }
@@ -35,7 +33,7 @@ header{
 }
 
 #lib{
-    background-color: #d4d4d0;
+    background-color: #FCEE21;
     border: none;
     -webkit-border-bottom-left-radius: 8px;
     -webkit-border-bottom-right-radius: 8px;
@@ -48,7 +46,7 @@ header{
 }
 
 #lib:hover{
-    background-color: #fffefa;
+    background-color: #fffd30;
     color: #323232;
     box-shadow: 0px 3px 9px #000000;
     -webkit-transition: all .5s ease;
@@ -57,20 +55,25 @@ header{
 
 }
 
+#big img{
+    margin-left: -25px;
+    margin-top: -10px;
+}
+
 #sign{
     float: left;
     width: 50%;
 }
 
 #no{
-    color: #e3dce7;
+    color: #E74700;
     font-size: 20px;
     float: left;
     clear: both;
     margin-top: 10px;
-    margin-left: 40px;
+    margin-left: 67px;
     margin-bottom: 10px;
-    border-bottom: 2px #e3dce7 solid;
+    border-bottom: 2px #E74700 solid;
     text-decoration: none;
     cursor: pointer;
     -webkit-transition: all .5s ease;
@@ -79,8 +82,8 @@ header{
 }
 
 #no:hover{
-    color: #f2ebf6;
-    /*text-shadow: 1px 1px 5px #f1581a;*/
+    color: #f1581a;
+    text-shadow: 1px 1px 5px #f1581a;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
@@ -88,10 +91,10 @@ header{
 
 /*-------------- Sign in Options --------------*/
 #btn-Email{
-    background-color: #e3dce7;
+    background-color: #E74700;
     border: none;
     border-radius: 7px;
-    color: #818181;
+    color: #fbfbfb;
     font-size: 16px;
     margin: 2% auto;
     display: block;
@@ -104,11 +107,11 @@ header{
 }
 
 #btn-Email:hover{
-    background-color: #e7e0df;
+    background-color: #f1581a;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
-    /*margin-bottom: 10px;*/
+    margin-bottom: 4%;
     box-shadow: 0px 3px 9px #000000;
 }
 
@@ -121,7 +124,7 @@ button p{
 }
 
 #btn-google{
-    background-color: #a8a5a8;
+    background-color: #D62929;
     border: none;
     border-radius: 7px;
     color: #fbfbfb;
@@ -137,12 +140,12 @@ button p{
 }
 
 #btn-google:hover {
-    background-color: #bab7ba;
+    background-color: #d64144;
     box-shadow: 0px 3px 9px #000000;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
-    /*margin-bottom: 10px;*/
+    margin-bottom: 4%;
 }
 
 #btn-google p{
@@ -150,7 +153,7 @@ button p{
 }
 
 #btn-facebook{
-    background-color: #726d73;
+    background-color: #3469D1;
     border: none;
     border-radius: 7px;
     color: #fbfbfb;
@@ -166,12 +169,12 @@ button p{
 }
 
 #btn-facebook:hover{
-    background-color: #8f868d;
+    background-color: #4573d1;
     box-shadow: 0px 3px 9px #000000;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
-    /*margin-bottom: 10px;*/
+    margin-bottom: 4%;
 }
 
 #btn-facebook p{
@@ -179,34 +182,49 @@ button p{
 }
 /*-------------- Sign in Options End --------------*/
 
+.modal-content {
+    width: 70%;
+    margin-left: 15%;
+    border: 5px #3796d7 solid;
+}
+
 #form{
-    border: 1.5px #b0b1ad solid;
+    background-color: #ffffff;
+    border: 1.5px #357ebd solid;
     border-radius: 5px;
 }
 
 form input{
     width: 95%;
     margin: 0 auto;
-    text-align: center;
     border: none;
     border-bottom: 1px #e6e7e3 solid;
     padding: 10px;
     display: inherit;
 }
 
-h4{
-    text-align: center;
+.modal-header h4{
+    margin-left: 20px;
     font-size: 2em;
+    font-family: 'Bevan', cursive;
+    color: #357ebd;
+    padding-top: 5px;
+}
+
+.modal-footer{
+    border-top: 0;
+    padding: 2px 20px 20px;
+    margin-top: 0;
 }
 
 /*-------------- Dropdown menu --------------*/
-.login{
+/*.login{*/
 /*position: absolute;*/
 /*left: 1100px;*/
 /*bottom: 710px;*/
-background-color: #232323;
-width: 100%;
-}
+/*background-color: #232323;*/
+/*width: 100%;*/
+/*}*/
 
 
 nav#links {
@@ -237,7 +255,7 @@ nav#login {
     /*width:300px;*/
     float: right;
     /*position:relative;*/
-    background-color: #232323;
+    /*background-color: #232323;*/
 }
 
 #login p {
@@ -246,7 +264,7 @@ nav#login {
     cursor:pointer;
     background-position:left;
     background-repeat:no-repeat;
-    font-family: 'arial', cursive;
+    font-family: 'Bevan', cursive;
 }
 
 #triangle{
@@ -264,9 +282,9 @@ nav#login {
     padding: 12px 2px 12px 12px;
     width:300px;
     box-shadow: 0px 3px 9px #000000;
-    top:70px;
+    top:60px;
     display:none;
-    font-family: 'arial', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 #login-form label {
@@ -292,7 +310,7 @@ nav#login {
 }
 
 #signinButton{
-    background-color: #7c7c73;
+    background-color: #FCEE21;
     border: none;
     border-radius: 7px;
     color: #000000;
@@ -300,7 +318,7 @@ nav#login {
     float: right;
     margin: 5px;
     width: 97%;
-    font-family: 'arial', cursive;
+    font-family: 'Bevan', cursive;
     padding: 5px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -308,7 +326,7 @@ nav#login {
 }
 
 #signinButton:hover{
-    background-color: #c9c5c1;
+    background-color: #fffd30;
     color: #323232;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -317,8 +335,7 @@ nav#login {
 /*-------------- Dropdown menu End --------------*/
 
 #bottom{
-    /*background-image: url("../images/Wheres%20my%20bus%20background.png");*/
-    background-color: grey;
+    background-image: url("../images/Wheres%20my%20bus%20background.png");
     width: 100%;
     float: left;
     padding: 10px;
@@ -332,9 +349,10 @@ nav#login {
 }
 
 .left h3{
-    font-family: 'arial', cursive;
+    font-family: 'Bevan', cursive;
     letter-spacing: 1px;
     font-size: 1.6em;
+    font-weight: normal;
     text-align: center;
     text-transform: uppercase;
     border-bottom: 1px #f5f5f5 solid;
@@ -356,7 +374,7 @@ nav#login {
     font-size: 20px;
     float: right;
     margin-right: 5px;
-    color: #c7c5c5;
+    color: #FCEE21;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     transition: all .2s ease;
@@ -366,8 +384,8 @@ nav#login {
 
 #bottom a:hover{
     font-size: 23px;
-    color: #fffbf4;
-    /*text-shadow: 1px 1px 5px #fffe5c;*/
+    color: #fffe5c;
+    text-shadow: 1px 1px 5px #fffe5c;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     transition: all .2s ease;
@@ -470,8 +488,22 @@ input.where{
     right: 5px;
 }
 
+.thDesktopView {
+    background: none;
+    background-color: #2f9cec;
+}
+
+#head{
+    width: 100%;
+}
+
+header{
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+
 #getBus{
-    background-color: #b3bab8;
+    background-color: #FCEE21;
     border: none;
     border-radius: 5px;
     color: #000000;
@@ -479,7 +511,7 @@ input.where{
     float: right;
     margin-top: 5px;
     width: 100%;
-    font-family: 'arial', cursive;
+    font-family: 'Bevan', cursive;
     padding: 5px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -487,7 +519,7 @@ input.where{
 }
 
 #getBus:hover{
-    background-color: #b0b1ad;
+    background-color: #fffd30;
     color: #323232;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -504,11 +536,11 @@ input.where{
     margin-top: 10%;
     margin-right: 2%;
     display: inline-block;
-    box-shadow: #505050 1px 5px 5px;
+    box-shadow: #2a4a50 1px 5px 5px;
 }
 
 #Destination h1{
-    font-family: 'arial', cursive;
+    font-family: 'Bevan', cursive;
     color: #f5f5f5;
     margin: 1% 5%;
     text-align: center;
@@ -539,17 +571,49 @@ input.where{
 #list h1{
     margin-top: 5px;
     text-align: center;
+    font-family: 'Bevan', cursive;
+
+}
+
+.buses a{
+    text-decoration: none;
 }
 
 #list h2{
     display: inline-block;
+    position: relative;
+    top: -8px;
     margin-top: 0;
+    font-family: 'Bevan', cursive;
+
 }
 
 .theRight{
     width: 37%;
     display: inline-block;
     float: right;
+}
+
+#map button.pull-right{
+    width: 50%;
+    background-color: #FCEE21;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Bevan', cursive;
+    padding: 5px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#map button.pull-right{
+    background-color: #fffd30;
+    color: #323232;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 #list p{
@@ -594,6 +658,8 @@ section a{
     margin-top: 5px;
     text-align: center;
     color: #f5f5f5;
+    font-family: 'Bevan', cursive;
+
 }
 
 #map img{
@@ -636,6 +702,8 @@ section a{
     font-size: 2.2em;
     display: inline-block;
     width: 88%;
+    font-family: 'Bevan', cursive;
+
 }
 
 #forum img{
@@ -672,12 +740,8 @@ section a{
 }
 
 .modal-header{
-    border-bottom: 1px #B6B6B6 solid;
+    border-bottom: 0;
     padding: 0;
-}
-
-.modal-body{
-    background-color: #dedede;
 }
 
 .modal-body textarea{
@@ -712,6 +776,10 @@ section a{
 
 .show{
     display: inline-block;
+}
+
+#pagelogo{
+    padding: 10px;
 }
 
 /*------------------------ Ranking Code ------------------------*/
