@@ -62,8 +62,6 @@
                 clear: both;
             }
             .pull-right{
-                width: 80%;
-                margin-right: 10%;
                 font-size: 1.5em;
             }
         }
@@ -88,7 +86,7 @@
 <div id="5thDesktopView" >
 <header>
 <nav>
-    <img src="images/page-logo.png" id="pagelogo" width="" height="">
+    <a href="index.html"><img src="images/page-logo.png" id="pagelogo" width="" height=""></a>
 </nav>
 
 <!--<button name="Register" id="Register-btn">Register</button>-->
@@ -160,7 +158,7 @@
 
         <section class="buses">
             <a href="#"><img src="images/favorite-icon_inactive-30.png"> </a>
-            <a href="#"><h2>Bus 1</h2>
+            <a href="#"><h2>Bus 3</h2>
                 <div class="theRight">
                     <p>2:35pm - 3:20pm</p>
                     <p><strong>Price:</strong> $2.25</p>
@@ -169,7 +167,7 @@
 
         <section class="buses">
             <a href="#"><img src="images/Wheres%20my%20bus-30.png"> </a>
-            <a href="#"><h2>Bus 1</h2>
+            <a href="#"><h2>Bus 6</h2>
                 <div class="theRight">
                     <p>2:35pm - 3:20pm</p>
                     <p><strong>Price:</strong> $2.25</p>
@@ -178,7 +176,7 @@
 
         <section class="buses">
             <a href="#"><img src="images/favorite-icon_inactive-30.png"> </a>
-            <a href="#"><h2>Bus 1</h2>
+            <a href="#"><h2>Bus 7</h2>
             <div class="theRight">
                 <p>2:35pm - 3:20pm</p>
                 <p><strong>Price:</strong> $2.25</p>
@@ -199,7 +197,7 @@
 
             <div class="modal fade" id="myModal">
                 <div class="modal-dialog">
-                    <div class="modal-content">
+                    <div class="modal-content" id="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
                             <h4 class="modal-title">Post Your Message</h4>
@@ -209,11 +207,12 @@
 
                             </textarea>
 
-                            <a href="#" id="link"><img class="modal-img" src="images/location-22.png">Enable your location</a>
-                            <a href="#" id="links"><img class="modal-img" src="images/QuestionMark.png">Question</a>
+                            <a href="#" id="link"><img class="modal-img" src="images/question%20and%20location-02.png">Enable your location</a>
+                            <a href="#" id="links"><img class="modal-img" src="images/question%20and%20location-01.png">Question</a>
 
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
+                            <div id="modalFooter">
+                                <button type="button" class="btn btn-primary">Post</button>
+                            </div>
                         </div>
                     </div><!-- /.modal-content -->
                 </div><!-- /.modal-dialog -->
@@ -221,7 +220,7 @@
 
            <div id="busForum">
             <h1>Bus 1 - Forum</h1>
-            <a data-toggle="modal" data-target="#myModal"><img src="images/post-22.png" width="" height=""></a>
+            <a data-toggle="modal" data-target="#myModal"><img src="images/wall_post.png" width="39px" height="39px"></a>
            </div>
             <section>
                 <h3>Jimmy</h3>

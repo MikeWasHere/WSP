@@ -196,7 +196,7 @@ button p{
 
 form input{
     width: 95%;
-    margin: 0 auto;
+    margin: 5% auto;
     border: none;
     border-bottom: 1px #e6e7e3 solid;
     padding: 10px;
@@ -300,7 +300,7 @@ nav#login {
     padding: 10px;
     /*margin-bottom: 20px;*/
     font-family: 'Alegreya', serif;
-    border: none;
+    border: 1px #c0c0c0 solid;
 }
 
 
@@ -335,17 +335,19 @@ nav#login {
 /*-------------- Dropdown menu End --------------*/
 
 #bottom{
-    background-image: url("../images/Wheres%20my%20bus%20background.png");
+    background-image: url("../images/wall4.png");
     width: 100%;
     float: left;
     padding: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .left{
     width: 31%;
     float: left;
     margin-left: 20px;
-    color: #f5f5f5;
+    color: #323232;
 }
 
 .left h3{
@@ -355,7 +357,7 @@ nav#login {
     font-weight: normal;
     text-align: center;
     text-transform: uppercase;
-    border-bottom: 1px #f5f5f5 solid;
+    border-bottom: 1px #323232 solid;
     margin-bottom: 20px;
 }
 
@@ -374,7 +376,7 @@ nav#login {
     font-size: 20px;
     float: right;
     margin-right: 5px;
-    color: #FCEE21;
+    color: #323232;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     transition: all .2s ease;
@@ -384,8 +386,8 @@ nav#login {
 
 #bottom a:hover{
     font-size: 23px;
-    color: #fffe5c;
-    text-shadow: 1px 1px 5px #fffe5c;
+    color: #323232;
+    text-shadow: 1px 1px 5px #4f4f4f;
     -webkit-transition: all .2s ease;
     -moz-transition: all .2s ease;
     transition: all .2s ease;
@@ -471,6 +473,7 @@ nav{
     padding: 5px;
     color: #323232;
     width: 100%;
+    font-size: 1.24em;
 }
 
 #2ndForm{
@@ -486,6 +489,7 @@ nav{
 input.where{
     position: relative;
     right: 5px;
+    font-size: 50px;
 }
 
 .thDesktopView {
@@ -552,6 +556,7 @@ header{
     width: 100%;
     margin-left: 0;
     margin-bottom: 20px;
+    margin-top: 2px;
 }
 
 #list{
@@ -563,7 +568,7 @@ header{
     border-radius: 5px;
     margin-top: 10%;
     margin-right: 2%;
-    height: 398px;
+    height: 462px;
     overflow: scroll;
     box-shadow: #505050 1px 5px 5px;
 }
@@ -595,7 +600,7 @@ header{
 }
 
 #map button.pull-right{
-    width: 50%;
+    width: 100%;
     background-color: #FCEE21;
     border: none;
     border-radius: 5px;
@@ -649,7 +654,7 @@ section a{
     padding: 15px;
     border-radius: 5px;
     margin-top: 10%;
-    height: 398px;
+    height: 462px;
     overflow: scroll;
     box-shadow: #505050 1px 5px 5px;
 }
@@ -698,16 +703,17 @@ section a{
 #forum h1 {
     color: #f5f5f5;
     margin-bottom: 0;
-    margin-top: 5px;
+    margin-top: 10px;
     font-size: 2.2em;
     display: inline-block;
-    width: 88%;
+    width: 86%;
     font-family: 'Bevan', cursive;
 
 }
 
 #forum img{
     opacity: 0.5;
+    margin-bottom: 5px;
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     transition: all .5s ease;
@@ -753,7 +759,19 @@ section a{
 }
 
 #forum #links{
-    color: #000000;
+    opacity: 0.5;
+    color: #318F20;
+    font-size: 1.2em;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#forum #links:hover{
+    opacity: 1.0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .modal-img{
@@ -761,13 +779,34 @@ section a{
 }
 
 #forum #link{
-    color: #000000;
+    opacity: 0.5;
+    color: #904cbf;
     margin-right: 50px;
+    font-size: 1.2em;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#forum #link:hover{
+    opacity: 1.0;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    transition: all .5s ease;
 }
 
 .modal-body button{
     position: relative;
     left: 12.8%;
+}
+
+#modalFooter{
+    display: inline-block;
+    margin-left: 30%;
+}
+
+#modal-content{
+    width: 100%;
 }
 
 .box{
